@@ -19,3 +19,36 @@ print(isAscendedSort(list2))
 
 
 
+
+list1 = [1,2,5,10,11,8,9]
+list2 = [1,2,3,4,5,6]
+ 
+def isAscendedSort(list):
+    count = 0
+    for i in range(len(list)):
+        temp = list[i]
+        for j in range(i+1, len(list)):
+            if temp > list[j]:
+                list.pop(i)
+            #print(list)
+                return list
+    return list
+
+def AscendOrNot(list):
+    newList = sorted(list)
+    print(list)
+    print(newList)
+    if list == newList:
+        return True
+    return False
+
+def main(list):
+    listLength = len(list)
+    if len(isAscendedSort(list)) == listLength:
+        # print(len(isAscendedSort(list)))
+        # print(len(list))
+        return False
+    return AscendOrNot(isAscendedSort(list))
+
+
+print(main(list1))
