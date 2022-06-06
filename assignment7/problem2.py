@@ -1,15 +1,13 @@
 
 
 def enterWords():
-    words = input("enter English words\n")
-    tempList = []
     while words != "exit":
         list.append(words)
         words = input("enter English words")
     return list
 
-#words = input("enter English words\n")
-#tempList = []
+words = input("enter English words\n")
+tempList = []
 print(enterWords())
 
 
