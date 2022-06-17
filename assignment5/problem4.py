@@ -29,14 +29,14 @@ def shape_function(num, shape):
     for i in range(1, i):
       for i in range(1, i):
         # print("*")
-        print("%s" %a , end=""),
+        print("%s" %a , end="")
       print("") 
   elif(shape == "SHAPE2"):
     i = num + 1
     for i in range(i, 1, -1):
       for i in range(1, i):
         # print("*")
-        print("%s" %a , end=""),
+        print("%s" %a , end="")
       print("") 
   elif(shape == "SHAPE1"):
     for i in range(num+1, 1, -1):
